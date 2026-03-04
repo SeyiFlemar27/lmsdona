@@ -1,0 +1,86 @@
+
+> webb@0.1.0 dev
+> next dev
+
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Users\harsh\package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * C:\Users\harsh\Downloads\E-tech\webb\package-lock.json
+   * C:\Users\harsh\Downloads\yarn.lock
+
+▲ Next.js 16.1.1 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://10.210.35.127:3000
+
+✓ Starting...
+✓ Ready in 1956ms
+ GET /admin/courses 200 in 1439ms (compile: 1225ms, render: 214ms)
+ GET /admin 200 in 1434ms (compile: 1104ms, render: 329ms)
+⨯ ./Downloads/E-tech/webb/app/admin/courses/[id]/page.tsx:5:8
+Next.js can't recognize the exported `generateStaticParams` field in route. App pages cannot use both "use client" and export function "generateStaticParams()".
+[0m [90m  3 |[39m [36mimport[39m { useState } [36mfrom[39m [32m"react"[39m[33m;[39m
+ [90m  4 |[39m
+[31m[1m>[22m[39m[90m  5 |[39m [36mexport[39m [36masync[39m [36mfunction[39m generateStaticParams() {
+ [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m  6 |[39m     [36mreturn[39m [
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m  7 |[39m         { id[33m:[39m [32m'1'[39m }[33m,[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m  8 |[39m         { id[33m:[39m [32m'2'[39m }[33m,[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m  9 |[39m         { id[33m:[39m [32m'3'[39m }[33m,[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m 10 |[39m     ][33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m 11 |[39m }
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 12 |[39m
+ [90m 13 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mCourseDetailPage[39m({ params }[33m:[39m { params[33m:[39m [33mPromise[39m[33m<[39m{ id[33m:[39m string }[33m>[39m }) {
+ [90m 14 |[39m     [36mconst[39m [activeTab[33m,[39m setActiveTab] [33m=[39m useState([32m"Overview"[39m)[33m;[39m[0m
+
+The exported configuration object in a source file needs to have a very specific format from which some properties can be statically parsed at compiled-time.
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/E-tech/webb/app/admin/courses/[id]/page.tsx [Client Component Browser]
+    ./Downloads/E-tech/webb/app/admin/courses/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/E-tech/webb/app/admin/courses/[id]/page.tsx [Client Component SSR]
+    ./Downloads/E-tech/webb/app/admin/courses/[id]/page.tsx [Server Component]
+
+https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config
+
+
+ GET /admin/courses/1 500 in 583ms (compile: 390ms, render: 193ms)
+✓ Compiled in 472ms
+ GET /admin 200 in 118ms (compile: 22ms, render: 96ms)
+ GET /admin/courses 200 in 135ms (compile: 103ms, render: 32ms)
+ GET /admin/courses/1 200 in 987ms (compile: 855ms, generate-params: 662ms, render: 131ms)
+ GET /admin/teachers 200 in 188ms (compile: 157ms, render: 31ms)
+ GET /admin/discuss 200 in 96ms (compile: 68ms, render: 28ms)
+ GET /admin/ai 200 in 191ms (compile: 158ms, render: 33ms)
+ GET /admin/ai 200 in 23ms (compile: 5ms, render: 19ms)
+ GET /admin/award 200 in 111ms (compile: 75ms, render: 36ms)
+ GET /admin 200 in 23ms (compile: 4ms, render: 19ms)
+✓ Compiled in 608ms
+✓ Compiled in 126ms
+ GET /admin 200 in 164ms (compile: 29ms, render: 135ms)
+ GET /admin 200 in 47ms (compile: 4ms, render: 42ms)
+ GET /admin 200 in 122ms (compile: 5ms, render: 116ms)
+ GET /admin 200 in 61ms (compile: 4ms, render: 57ms)
+✓ Compiled in 109ms
+✓ Compiled in 305ms
+ GET /admin/teachers 200 in 375ms (compile: 180ms, render: 196ms)
+ GET /admin 200 in 337ms (compile: 120ms, render: 217ms)
+ GET /admin/teachers 200 in 29ms (compile: 4ms, render: 25ms)
+ GET /admin 200 in 23ms (compile: 5ms, render: 17ms)
+ GET /admin/courses 200 in 242ms (compile: 184ms, render: 58ms)
+ GET /admin/discuss 200 in 40ms (compile: 15ms, render: 25ms)
+ GET /admin/classes 200 in 277ms (compile: 255ms, render: 22ms)
+ GET /admin/classes 200 in 21ms (compile: 4ms, render: 18ms)
+ GET /admin/ai 200 in 37ms (compile: 20ms, render: 18ms)
+ GET /admin/project-management 200 in 111ms (compile: 94ms, render: 17ms)
+ GET /admin 200 in 21ms (compile: 3ms, render: 18ms)
